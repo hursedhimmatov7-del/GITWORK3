@@ -194,6 +194,21 @@ font-size: 40px;
 .texts4 p{
     font-size: 17px;
 }
+.sec5{
+    text-align: center;
+    margin: 70px 0px;
+    background-color: #C3E3FD;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.sec5 p b{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 40px;
+    
+}
 @media (max-width:500px){
     .head{
         width: 90%;
@@ -312,5 +327,11 @@ font-size: 32px;
 }
 .texts4 p{
     font-size: 10px;
+}
+.sec5{
+    padding: 30px 0px;
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
 }
 }
