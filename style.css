@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
       font-family: "Inter", sans-serif;
+       /* font-family: "Space Grotesk", sans-serif; */
 }
 header{
     width: 100%;
@@ -35,4 +36,174 @@ header{
     color: white;
     background-color: black;
     padding: 10px 30px;
+}
+.menu{
+    display: none;
+}
+.sec1{
+    width: 100%;
+    background-color:#F1DFD5 ;
+    position: relative;
+}
+.sec1asi{
+    text-align: center;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 150px 0px 100px ;
+}
+.sec1asi h1{
+font-size: 80px;
+ font-family: "Space Grotesk", sans-serif;
+}
+.sec1asi p{
+    font-size: 15px;
+}
+.but1{
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+}
+.but2{
+    border: none;
+    background-color: white;
+    border: 3px solid black;
+    padding: 18px 30px;
+}
+.vec{
+    position: absolute;
+    left: 60px;
+    top: 100px;
+}
+.man{
+    position: absolute;
+   left: 17%;
+    top: 28%;
+}
+.shapes{
+    position: absolute;
+    right: 19%;
+    top: 20%;
+}
+.faceb{
+    position: absolute;
+    top: 48%;
+    left: 12%;
+}
+.dis{
+    position: absolute;
+    top: 55% ;
+    left: 23%;
+}
+.tele{
+    position: absolute;
+    top: 70%;
+    left: 17%;
+}
+.man2{
+    position: absolute;
+    right: 23%;
+    top: 47%;
+}
+.yout{
+    position: absolute;
+    top: 25%;
+    right: 11%;
+}
+.snap{
+    position: absolute;
+    top: 55%;
+    right: 15% ;
+}
+.twit{
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+}
+@media (max-width:500px){
+    .head{
+        width: 90%;
+        margin: auto;
+    }
+.head nav , .headbuttons{
+    display: none;
+}
+.menu{
+    display: inline;
+}
+.sec1 img{
+    width:8%;
+}
+.sec1asi{
+    gap: 70px;
+    padding: 60px 0px 60px;
+}
+.sec1asi h1{
+font-size: 32px;
+ font-family: "Space Grotesk", sans-serif;
+}
+.sec1asi p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.but1 , .but2{
+    font-size: 10px !important;
+    padding: 10px 20px;
+}
+.vec{
+    position: absolute;
+  top: 0;
+  left: 5%;
+}
+.man{
+    position: absolute;
+   left: 2%;
+    top: 50%;
+}
+.shapes{
+  display: none;
+}
+.faceb{
+    width: 5% !important;
+    position: absolute;
+    top: 60%;
+    left: 12%;
+}
+.dis{
+    position: absolute;
+    top: 87% ;
+    left: 23%;
+}
+.tele{
+    width: 5% !important;
+    position: absolute;
+    top: 70%;
+    left: 3%;
+}
+.man2{
+    position: absolute;
+    right: 20%;
+    top: 63%;
+}
+.yout{
+    width: 5% !important;
+    position: absolute;
+    top: 35%;
+    right: 7%;
+}
+.snap{
+    position: absolute;
+    top: 55%;
+    right: 10% ;
+}
+.twit{
+    width: 5% !important;
+    position: absolute;
+    bottom: 20%;
+    right: 8%;
+}
 }
