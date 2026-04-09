@@ -139,6 +139,27 @@ font-size: 40px;
 .sec2 p{
     font-size: 15px;
 }
+.sec3{
+    max-width: 1400px;
+    margin: auto;
+    padding: 70px 0px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.divs3{
+    width: 32%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.div3{
+    padding: 5%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
 @media (max-width:500px){
     .head{
         width: 90%;
@@ -232,5 +253,15 @@ font-size: 32px;
 .sec2 p{
     font-size: 9px;
     text-align: center;
+}
+.sec3{
+    padding: 0;
+    width: 90%;
+    gap: 20px;
+    flex-direction: column;
+}
+.divs3{
+    padding: 10% 5%;
+    width: 92%;
 }
 }
