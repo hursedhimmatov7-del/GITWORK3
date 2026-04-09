@@ -198,7 +198,7 @@ font-size: 40px;
     text-align: center;
     margin: 70px 0px;
     background-color: #C3E3FD;
-    width: 100%;
+    width: 97.3%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -208,6 +208,14 @@ font-size: 40px;
     font-family: "Space Grotesk", sans-serif;
     font-size: 40px;
     
+}
+.sec6{
+    padding: 70px 0px 80px;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 @media (max-width:500px){
     .head{
@@ -333,5 +341,14 @@ font-size: 32px;
     width: 100%;
     flex-direction: column;
     gap: 50px;
+}
+.sec6{
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    gap: 30px;
+}
+.sec6 img{
+    width: 100%;
 }
 }
